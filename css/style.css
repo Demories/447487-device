@@ -2,14 +2,20 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 15px;
-  font-family: 'OpenSansLight', 'Arial', sans-serif;
+	font-family: 'OpenSansLight', 'Arial', sans-serif;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 @font-face {
 	font-family: 'GilroyExtraBold';
 	src: url('../fonts/gilroyextrabold.woff2') format('woff2'),
 	url('../fonts/gilroyextrabold.woff') format('woff');
-	font-weight: 400;
+	font-weight: 700;
 	font-style: normal;
 }
 
@@ -17,7 +23,7 @@ body {
 	font-family: 'GilroyLight';
 	src: url('../fonts/gilroylight.woff2') format('woff2'),
 	url('../fonts/gilroylight.woff') format('woff');
-	font-weight: 400;
+	font-weight: lighter;
 	font-style: normal;
 }
 
@@ -33,6 +39,6 @@ body {
 	font-family: 'OpenSansLight';
 	src: url('../fonts/opensanslight.woff2') format('woff2'),
 	url('../fonts/opensanslight.woff') format('woff');
-	font-weight: 400;
+	font-weight: lighter;
 	font-style: normal;
 }
