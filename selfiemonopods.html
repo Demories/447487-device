@@ -8,15 +8,17 @@
 </head>
 <body>
 	<header class="product-header container">
-		<a href="index.html" class="logo">Device</a>
+		<a href="index.html"><span class="logo">Device</span></a>
 		<div class="block-header">
 			<form class="search" action="https://echo.htmlacademy.ru" method="get">
 				<input type="search" name="search" placeholder="Поиск по сайту">
 				<input type="submit" name="submit" value="Найти">
 			</form>
 			<ul class="user-product-top">
-				<li><a class="profile-top" href="#">Валентин Петухов</a></li>
-				<li><a class="exit-top" href="#">Выйти</a></li>
+				<li>
+				<a class="profile-top" href="#">Валентин Петухов</a>
+				<a class="exit-top" href="#">Выйти</a>
+				</li>
 				<li><a class="compare-top" href="#">Сравнить</a></li>
 				<li><a class="basket-top" href="#">Корзина</a></li>
 			</ul>
@@ -46,7 +48,7 @@
 			<ul class="breadcrumbs">
 				<li><a href="index.html">Главная</a></li>
 				<li><a href="catalog.html">Каталог товаров</a></li>
-				<li><a>Моноподы для селфи</a></li>
+				<li><a href="selfiemonopods.html">Моноподы для селфи</li>
 			</ul>
 		</section>
 		<section class="filters-title">
@@ -83,7 +85,7 @@
 							<input type="checkbox" name="checkbox" checked>Черный
 							</label>
 							<label>
-							<input type="checkbox" name="checkbox" checked>Белый
+							<input type="checkbox" name="checkbox">Белый
 							</label>
 							<label>
 							<input type="checkbox" name="checkbox" checked>Синний
@@ -92,7 +94,7 @@
 							<input type="checkbox" name="checkbox" checked>Красный
 							</label>
 							<label>
-							<input type="checkbox" name="checkbox" checked>Розовый
+							<input type="checkbox" name="checkbox">Розовый
 							</label>
 						</fieldset>
 						<fieldset>
@@ -115,7 +117,7 @@
 				<article class="object-item">
 					<h2 class="visually-hidden">Любительская селфи-палка</h2>
 					<figure>
-						<img src="http://placehold.it/150x100" alt="Любительская селфи-палка">
+						<img src="img/product-item/item-1.jpg" width="360" height="380" alt="Любительская селфи-палка">
 					</figure>
 					<a class="object-name" href="#">Любительская селфи-палка</a>
 					<span>500 руб.</span>
@@ -123,7 +125,7 @@
 				<article class="object-item">
 					<h2 class="visually-hidden">Профессиональная селфи-палка</h2>
 					<figure>
-						<img src="http://placehold.it/150x100" alt="Профессиональная селфи-палка">
+						<img src="img/product-item/item-2.jpg" width="360" height="380" alt="Профессиональная селфи-палка">
 					</figure>
 					<a class="object-name" href="#">Профессиональная селфи-палка</a>
 					<span>1 500 руб.</span>
@@ -131,7 +133,7 @@
 				<article class="object-item">
 					<h2 class="visually-hidden">Непотопляемая селфи-палка</h2>
 					<figure>
-						<img src="http://placehold.it/150x100" alt="Непотопляемая селфи-палка">
+						<img src="img/product-item/item-3.jpg" width="360" height="380" alt="Непотопляемая селфи-палка">
 					</figure>
 					<a class="object-name" href="#">Непотопляемая селфи-палка</a>
 					<span>2 500 руб.</span>
@@ -139,7 +141,7 @@
 				<article class="object-item">
 					<h2 class="visually-hidden">Селфи-палка «Следуй за мной»</h2>
 					<figure>
-						<img src="http://placehold.it/150x100" alt="Селфи-палка «Следуй за мной»">
+						<img src="img/product-item/item-4.jpg" width="360" height="380" alt="Селфи-палка «Следуй за мной»">
 					</figure>
 					<a class="object-name" href="#">Селфи-палка «Следуй за мной»</a>
 					<span>4 900 руб.</span>
@@ -155,9 +157,10 @@
 		</section>
 	</main>
 	<footer class="main-footer">
-		<div class="container">
+		<section class="footer-block container">
+		<h2 class="visually-hidden">Подвал сайта</h2>
 			<div class="left-block">
-				<a>Device</a>
+				<a class="logo-bottom">Device</a>
 				<span>г. Москва, ул. Строителей, 15</span>
 			</div>
 			<div class="center-block">
@@ -167,9 +170,9 @@
 					<a href="contacts.html">Контакты</a>
 				</div>
 				<div class="social-links">
-					<a class="social-btn btn-fb" href="#"></a>
-					<a class="social-btn btn-inst" href="#"></a>
-					<a class="social-btn btn-tw" href="#"></a>
+					<a class="social-btn btn-fb" href="#">facebook</a>
+					<a class="social-btn btn-inst" href="#">instagramm</a>
+					<a class="social-btn btn-tw" href="#">twitter</a>
 				</div>
 			</div>
 			<div class="right-block">
@@ -181,7 +184,7 @@
 				<span>Тел.: +7 (495) 495-95-95</span>
 				<a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
 			</div>
-		</div>
+		</section>
 	</footer>
 </body>
 </html>
